@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches / build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Trained model binaries (regenerable via the training scripts)
+*.pkl
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# The LoRA adapter output directory (regenerate with finetuning/train_lora.py)
+finetuning/adapter/
+
+# Runtime data written by the app (folder kept alive with .gitkeep)
+data/candidates/*.json
+data/sessions/*.json
+data/vectors/*.json
+data/logs/*.jsonl
+data/models/*
+!data/models/.gitkeep
+data/rl/tables/*.json
+data/finetune/*
+!data/finetune/.gitkeep
+data/memories/*
+!data/memories/.gitkeep
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

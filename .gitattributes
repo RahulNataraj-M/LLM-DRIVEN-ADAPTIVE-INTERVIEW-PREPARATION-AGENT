@@ -1,0 +1,11 @@
+# Normalize line endings to LF in the repository
+* text=auto eol=lf
+
+# Treat binary artifacts as binary
+*.safetensors binary
+*.pkl binary
+*.pt binary
+*.pth binary
+*.bin binary
+*.png binary
+*.jpg binary
