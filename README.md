@@ -114,7 +114,3 @@ Everything is plain JSON on disk under `data/`, keyed by candidate id. Runtime a
 
 - Personas change tone and hint style only — never scoring.
 - The system degrades gracefully: if Ollama is unreachable it uses the curated question bank, keyword grading, fallback embeddings and a linear probability estimate, and still completes a session.
-
-## License
-
-Add a license before publishing.
